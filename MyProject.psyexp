@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2020.1.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="pygame" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="html" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1920, 1080]" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="expName" updates="None" val="MyProject" valType="str"/>
+    <Param name="exportHTML" updates="None" val="manually" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+  </Settings>
+  <Routines>
+    <Routine name="Instructions">
+      <TextComponent name="text_instructions">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="text_instructions" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Please read the instructions" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param name="allowedKeys" updates="constant" val="'y'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="ConsentForm">
+      <TextComponent name="Consent_Form">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="Consent_Form" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Form of consent ... " valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp">
+        <Param name="allowedKeys" updates="constant" val="'e'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="ExperimentEnd">
+      <TextComponent name="End_text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="End_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="thank you for your participation" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_4">
+        <Param name="allowedKeys" updates="constant" val="'esc'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_4" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Recordings">
+      <CodeComponent name="code_2">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="import {*} from 'tkinter';&amp;#10;import * as tkinter.messagebox from 'tkinter/messagebox';&amp;#10;import * as os from 'os';&amp;#10;import {mixer} from 'pygame';&amp;#10;var buttonframe, menubar, pauseBtn, playbtn, playlist, root, scale, scrol_y, songsframe, songtrack, status, stopBtn, subMenu, track, trackframe, trackstatus, unpauseBtn;&amp;#10;root = new Tk();&amp;#10;root.geometry(&quot;1200x200+200+200&quot;);&amp;#10;track = new StringVar();&amp;#10;status = new StringVar();&amp;#10;trackframe = new LabelFrame(root, {&quot;text&quot;: &quot;Recording Track&quot;, &quot;font&quot;: [&quot;times new roman&quot;, 15, &quot;bold&quot;], &quot;bg&quot;: &quot;grey&quot;, &quot;fg&quot;: &quot;white&quot;, &quot;bd&quot;: 5, &quot;relief&quot;: GROOVE});&amp;#10;trackframe.place({&quot;x&quot;: 0, &quot;y&quot;: 0, &quot;width&quot;: 600, &quot;height&quot;: 100});&amp;#10;songtrack = new Label(trackframe, {&quot;textvariable&quot;: track, &quot;width&quot;: 20, &quot;font&quot;: [&quot;times new roman&quot;, 24, &quot;bold&quot;], &quot;bg&quot;: &quot;grey&quot;, &quot;fg&quot;: &quot;gold&quot;}).grid({&quot;row&quot;: 0, &quot;column&quot;: 0, &quot;padx&quot;: 10, &quot;pady&quot;: 5});&amp;#10;trackstatus = new Label(trackframe, {&quot;textvariable&quot;: status, &quot;font&quot;: [&quot;times new roman&quot;, 24, &quot;bold&quot;], &quot;bg&quot;: &quot;grey&quot;, &quot;fg&quot;: &quot;gold&quot;}).grid({&quot;row&quot;: 0, &quot;column&quot;: 1, &quot;padx&quot;: 10, &quot;pady&quot;: 5});&amp;#10;buttonframe = new LabelFrame(root, {&quot;text&quot;: &quot;Control Panel&quot;, &quot;font&quot;: [&quot;times new roman&quot;, 15, &quot;bold&quot;], &quot;bg&quot;: &quot;grey&quot;, &quot;fg&quot;: &quot;white&quot;, &quot;bd&quot;: 5, &quot;relief&quot;: GROOVE});&amp;#10;buttonframe.place({&quot;x&quot;: 0, &quot;y&quot;: 100, &quot;width&quot;: 600, &quot;height&quot;: 100});&amp;#10;function play_music() {&amp;#10;    track.set(playlist.get(ACTIVE));&amp;#10;    status.set(&quot;-Playing&quot;);&amp;#10;    mixer.music.load(playlist.get(ACTIVE));&amp;#10;    mixer.music.play();&amp;#10;}&amp;#10;playbtn = new Button(buttonframe, {&quot;text&quot;: &quot;PLAY&quot;, &quot;command&quot;: play_music, &quot;width&quot;: 6, &quot;height&quot;: 1, &quot;font&quot;: [&quot;times new roman&quot;, 16, &quot;bold&quot;], &quot;fg&quot;: &quot;navyblue&quot;, &quot;bg&quot;: &quot;gold&quot;}).grid({&quot;row&quot;: 0, &quot;column&quot;: 0, &quot;padx&quot;: 10, &quot;pady&quot;: 5});&amp;#10;function pause_music() {&amp;#10;    status.set(&quot;-Paused&quot;);&amp;#10;    mixer.music.pause();&amp;#10;}&amp;#10;pauseBtn = new Button(buttonframe, {&quot;text&quot;: &quot;PAUSE&quot;, &quot;command&quot;: pause_music, &quot;width&quot;: 8, &quot;height&quot;: 1, &quot;font&quot;: [&quot;times new roman&quot;, 16, &quot;bold&quot;], &quot;fg&quot;: &quot;navyblue&quot;, &quot;bg&quot;: &quot;gold&quot;}).grid({&quot;row&quot;: 0, &quot;column&quot;: 1, &quot;padx&quot;: 10, &quot;pady&quot;: 5});&amp;#10;function unpause_music() {&amp;#10;    status.set(&quot;-Playing&quot;);&amp;#10;    mixer.music.unpause();&amp;#10;}&amp;#10;unpauseBtn = new Button(buttonframe, {&quot;text&quot;: &quot;UNPAUSE&quot;, &quot;command&quot;: unpause_music, &quot;width&quot;: 10, &quot;height&quot;: 1, &quot;font&quot;: [&quot;times new roman&quot;, 16, &quot;bold&quot;], &quot;fg&quot;: &quot;navyblue&quot;, &quot;bg&quot;: &quot;gold&quot;}).grid({&quot;row&quot;: 0, &quot;column&quot;: 2, &quot;padx&quot;: 10, &quot;pady&quot;: 5});&amp;#10;function stop_music() {&amp;#10;    status.set(&quot;-Stopped&quot;);&amp;#10;    mixer.music.stop();&amp;#10;}&amp;#10;stopBtn = new Button(buttonframe, {&quot;text&quot;: &quot;STOP&quot;, &quot;command&quot;: stop_music, &quot;width&quot;: 6, &quot;height&quot;: 1, &quot;font&quot;: [&quot;times new roman&quot;, 16, &quot;bold&quot;], &quot;fg&quot;: &quot;navyblue&quot;, &quot;bg&quot;: &quot;gold&quot;}).grid({&quot;row&quot;: 0, &quot;column&quot;: 3, &quot;padx&quot;: 10, &quot;pady&quot;: 5});&amp;#10;songsframe = new LabelFrame(root, {&quot;text&quot;: &quot;Recording Playlist&quot;, &quot;font&quot;: [&quot;times new roman&quot;, 15, &quot;bold&quot;], &quot;bg&quot;: &quot;grey&quot;, &quot;fg&quot;: &quot;white&quot;, &quot;bd&quot;: 5, &quot;relief&quot;: GROOVE});&amp;#10;songsframe.place({&quot;x&quot;: 600, &quot;y&quot;: 0, &quot;width&quot;: 400, &quot;height&quot;: 200});&amp;#10;scrol_y = new Scrollbar(songsframe, {&quot;orient&quot;: VERTICAL});&amp;#10;playlist = new Listbox(songsframe, {&quot;yscrollcommand&quot;: scrol_y.set, &quot;selectbackground&quot;: &quot;gold&quot;, &quot;selectmode&quot;: SINGLE, &quot;font&quot;: [&quot;times new roman&quot;, 12, &quot;bold&quot;], &quot;bg&quot;: &quot;silver&quot;, &quot;fg&quot;: &quot;navyblue&quot;, &quot;bd&quot;: 5, &quot;relief&quot;: GROOVE});&amp;#10;scrol_y.pack({&quot;side&quot;: RIGHT, &quot;fill&quot;: Y});&amp;#10;scrol_y.config({&quot;command&quot;: playlist.yview});&amp;#10;playlist.pack({&quot;fill&quot;: BOTH});&amp;#10;playlist.insert(END, &quot;Offender.wav&quot;, &quot;Suspect.wav&quot;);&amp;#10;menubar = new Menu(root);&amp;#10;root.config({&quot;menu&quot;: menubar});&amp;#10;subMenu = new Menu(menubar, {&quot;tearoff&quot;: 0});&amp;#10;menubar.add_cascade({&quot;label&quot;: &quot;File&quot;, &quot;menu&quot;: subMenu});&amp;#10;subMenu.add_command({&quot;label&quot;: &quot;Open&quot;});&amp;#10;subMenu.add_command({&quot;label&quot;: &quot;Exit&quot;, &quot;command&quot;: root.destroy});&amp;#10;function guide() {&amp;#10;    tkinter.messagebox.showinfo(&quot;Guide&quot;, &quot;Please make sure that your audio is on and that your Internet is working well. If there are still problems, please exit the experiement and start it again. If you get the same problems, please contact the researcher.&quot;);&amp;#10;}&amp;#10;subMenu = new Menu(menubar, {&quot;tearoff&quot;: 0});&amp;#10;menubar.add_cascade({&quot;label&quot;: &quot;Help&quot;, &quot;menu&quot;: subMenu});&amp;#10;subMenu.add_command({&quot;label&quot;: &quot;Guide&quot;, &quot;command&quot;: guide});&amp;#10;mixer.init();&amp;#10;root.title(&quot;Recording Player&quot;);&amp;#10;function set_vol(val) {&amp;#10;    var volume;&amp;#10;    volume = (Number.parseInt(val) / 100);&amp;#10;    mixer.music.set_volume(volume);&amp;#10;}&amp;#10;scale = new Scale(root, {&quot;from_&quot;: 0, &quot;to&quot;: 100, &quot;orient&quot;: HORIZONTAL, &quot;command&quot;: set_vol});&amp;#10;scale.set(50);&amp;#10;mixer.music.set_volume(50);&amp;#10;scale.pack({&quot;side&quot;: RIGHT, &quot;padx&quot;: 30});&amp;#10;root.after(100000, root.quit);&amp;#10;root.mainloop();&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="from tkinter import *&amp;#10;import tkinter.messagebox&amp;#10;import os&amp;#10;from pygame import mixer&amp;#10;root = Tk() &amp;#10;root.geometry('1200x200+200+200')&amp;#10;track = StringVar()&amp;#10;status = StringVar()&amp;#10;trackframe = LabelFrame(root, text = 'Recording Track', font=('times new roman',15,'bold'), bg='grey', fg='white',bd=5,relief=GROOVE)&amp;#10;trackframe.place(x=0,y=0,width=600,height=100)&amp;#10;songtrack = Label(trackframe,textvariable=track,width=20,font=(&quot;times new roman&quot;,24,&quot;bold&quot;),bg=&quot;grey&quot;,fg=&quot;gold&quot;).grid(row=0,column=0,padx=10,pady=5)&amp;#10;trackstatus = Label(trackframe,textvariable=status,font=(&quot;times new roman&quot;,24,&quot;bold&quot;),bg=&quot;grey&quot;,fg=&quot;gold&quot;).grid(row=0,column=1,padx=10,pady=5)&amp;#10;buttonframe = LabelFrame(root,text=&quot;Control Panel&quot;,font=(&quot;times new roman&quot;,15,&quot;bold&quot;),bg=&quot;grey&quot;,fg=&quot;white&quot;,bd=5,relief=GROOVE)&amp;#10;buttonframe.place(x=0,y=100,width=600,height=100)&amp;#10;def play_music(): &amp;#10;        track.set(playlist.get(ACTIVE))&amp;#10;        status.set('-Playing')&amp;#10;        mixer.music.load(playlist.get(ACTIVE))&amp;#10;        mixer.music.play() &amp;#10;playbtn=Button(buttonframe,text=&quot;PLAY&quot;,command=play_music,width=6,height=1,font=(&quot;times new roman&quot;,16,&quot;bold&quot;),fg=&quot;navyblue&quot;,bg=&quot;gold&quot;).grid(row=0,column=0,padx=10,pady=5)&amp;#10;def pause_music():&amp;#10;    status.set('-Paused')&amp;#10;    mixer.music.pause()&amp;#10;pauseBtn=Button(buttonframe,text=&quot;PAUSE&quot;,command=pause_music,width=8,height=1,font=(&quot;times new roman&quot;,16,&quot;bold&quot;),fg=&quot;navyblue&quot;,bg=&quot;gold&quot;).grid(row=0,column=1,padx=10,pady=5)&amp;#10;def unpause_music():&amp;#10;    status.set('-Playing')&amp;#10;    mixer.music.unpause()&amp;#10;unpauseBtn=Button(buttonframe,text=&quot;UNPAUSE&quot;,command=unpause_music,width=10,height=1,font=(&quot;times new roman&quot;,16,&quot;bold&quot;),fg=&quot;navyblue&quot;,bg=&quot;gold&quot;).grid(row=0,column=2,padx=10,pady=5)&amp;#10;def stop_music():&amp;#10;    status.set('-Stopped')&amp;#10;    mixer.music.stop()&amp;#10;stopBtn=Button(buttonframe,text=&quot;STOP&quot;,command=stop_music,width=6,height=1,font=(&quot;times new roman&quot;,16,&quot;bold&quot;),fg=&quot;navyblue&quot;,bg=&quot;gold&quot;).grid(row=0,column=3,padx=10,pady=5)&amp;#10;songsframe = LabelFrame(root,text=&quot;Recording Playlist&quot;,font=(&quot;times new roman&quot;,15,&quot;bold&quot;),bg=&quot;grey&quot;,fg=&quot;white&quot;,bd=5,relief=GROOVE)&amp;#10;songsframe.place(x=600,y=0,width=400,height=200)&amp;#10;scrol_y = Scrollbar(songsframe,orient=VERTICAL)&amp;#10;playlist=Listbox(songsframe,yscrollcommand=scrol_y.set,selectbackground=&quot;gold&quot;,selectmode=SINGLE,font=(&quot;times new roman&quot;,12,&quot;bold&quot;),bg=&quot;silver&quot;,fg=&quot;navyblue&quot;,bd=5,relief=GROOVE)&amp;#10;scrol_y.pack(side=RIGHT,fill=Y)&amp;#10;scrol_y.config(command=playlist.yview)&amp;#10;playlist.pack(fill=BOTH)&amp;#10;playlist.insert(END, 'Offender.wav','Suspect.wav')&amp;#10;menubar = Menu(root)&amp;#10;root.config(menu = menubar)&amp;#10;subMenu = Menu(menubar, tearoff=0)&amp;#10;menubar.add_cascade(label='File', menu = subMenu)&amp;#10;subMenu.add_command(label ='Open')&amp;#10;subMenu.add_command(label = 'Exit', command = root.destroy)&amp;#10;def guide():&amp;#10;    tkinter.messagebox.showinfo('Guide', 'Please make sure that your audio is on and that your Internet is working well. If there are still problems, please exit the experiement and start it again. If you get the same problems, please contact the researcher.')&amp;#10;subMenu = Menu(menubar, tearoff=0)&amp;#10;menubar.add_cascade(label='Help', menu = subMenu)&amp;#10;subMenu.add_command(label='Guide', command = guide)&amp;#10;mixer.init()&amp;#10;root.title('Recording Player')&amp;#10;def set_vol(val):&amp;#10;    volume = int(val) / 100&amp;#10;    mixer.music.set_volume(volume)  &amp;#10;scale = Scale(root, from_=0, to=100, orient=HORIZONTAL, command = set_vol)&amp;#10;scale.set(50)&amp;#10;mixer.music.set_volume(50)&amp;#10;scale.pack(side=RIGHT, padx=30)&amp;#10;root.after(100000, root.quit)&amp;#10;root.mainloop()&amp;#10;" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_2" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="TaskDescription">
+      <TextComponent name="description_task">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="description_task" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="description of the task goes here" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param name="allowedKeys" updates="constant" val="'y'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_3" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Decide">
+      <RatingScaleComponent name="decide_1">
+        <Param name="categoryChoices" updates="constant" val="1,2,3,4,5,6,7" valType="str"/>
+        <Param name="customize_everything" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="disappear" updates="constant" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="high" updates="constant" val="7" valType="code"/>
+        <Param name="labels" updates="constant" val="" valType="str"/>
+        <Param name="low" updates="constant" val="1" valType="code"/>
+        <Param name="marker" updates="constant" val="triangle" valType="str"/>
+        <Param name="markerStart" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="decide_1" valType="code"/>
+        <Param name="pos" updates="constant" val="0, -0.4" valType="str"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="scaleDescription" updates="constant" val="very likely different, likely different, somewhat different, not sure, somewhat the same, likely the same, very likely the same" valType="str"/>
+        <Param name="showAccept" updates="constant" val="True" valType="bool"/>
+        <Param name="singleClick" updates="constant" val="False" valType="bool"/>
+        <Param name="size" updates="constant" val="1.0" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="storeHistory" updates="constant" val="False" valType="bool"/>
+        <Param name="storeRating" updates="constant" val="True" valType="bool"/>
+        <Param name="storeRatingTime" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="tickHeight" updates="constant" val="" valType="str"/>
+        <Param name="visualAnalogScale" updates="constant" val="False" valType="bool"/>
+      </RatingScaleComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="ConsentForm"/>
+    <LoopTerminator name="trials"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_2">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials_2" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Instructions"/>
+    <LoopTerminator name="trials_2"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_3">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials_3" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="TaskDescription"/>
+    <LoopTerminator name="trials_3"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_5">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials_5" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <LoopInitiator loopType="TrialHandler" name="trials_4">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials_4" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Recordings"/>
+    <LoopTerminator name="trials_4"/>
+    <LoopTerminator name="trials_5"/>
+    <Routine name="Decide"/>
+    <Routine name="ExperimentEnd"/>
+  </Flow>
+</PsychoPy2experiment>
